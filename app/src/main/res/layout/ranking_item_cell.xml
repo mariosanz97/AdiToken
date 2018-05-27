@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="25dp"
+    android:id="@+id/line"
+    android:weightSum="1"
+    android:background="#ffbd00">
+
+    <TextView
+        android:layout_weight="0.4"
+        android:id="@+id/num"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+
+
+    <TextView
+        android:layout_weight="0.2"
+        android:id="@+id/itemName"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="Marcos"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_weight="0.4"
+        android:id="@+id/balance"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="30.000"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+</LinearLayout>

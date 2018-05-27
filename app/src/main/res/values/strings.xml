@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AdiSense</string>
+
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="message_tag_detected">NFC Tag Detected !</string>
+    <string name="key">AIzaSyBSRhbCmFcyD6U-L7fvHxMNUqIsBjiGhAo</string>
+
+</resources>

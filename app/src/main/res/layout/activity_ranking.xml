@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_layout2"
+    android:layout_height="match_parent"
+    tools:context=".Activity.activity_Ranking"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_weight="0.25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:weightSum="1">
+
+        <TextView
+            android:paddingTop="15dp"
+            android:layout_weight="0.33"
+            android:id="@+id/Position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Position"
+            android:textColor="#3B84CD"
+            android:textSize="16dp" />
+
+        <TextView
+            android:paddingTop="15dp"
+            android:layout_weight="0.33"
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="#3B84CD"
+            android:textSize="16dp" />
+
+        <TextView
+            android:paddingTop="15dp"
+            android:layout_weight="0.33"
+            android:id="@+id/Points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Points"
+            android:textColor="#3B84CD"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_weight="0.75"
+        android:layout_marginTop="50dp"
+        android:weightSum="0.6"
+        android:id="@+id/lista"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:choiceMode="singleChoice" />
+
+</android.support.v4.widget.DrawerLayout>
